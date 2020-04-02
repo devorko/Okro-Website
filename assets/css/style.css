@@ -154,9 +154,11 @@ figure figcaption {
 .feature-1 h3 {
   font-size: 20px;
 }
-
+p{
+  color: #212529
+}
 .feature-1 p {
-  color: #b1b1b1;
+  color: #212529
 }
 
 /* Step */
@@ -1211,3 +1213,10 @@ figure figcaption {
   color: #fff;
   background: #2d71a1;
 }
+.heading{font-weight:700;margin:0;padding:1vw 3vw;font-size:4vw}
+.txtcontent{width:100%;background-color:#fff;border-radius:18px;margin-top:2vw;padding:5vw;font-size:3.5vw;text-align:justify}
+.txtcontent p{font-size:3.5vw;text-align:justify}
+.copyright{font-size:3vw;color:grey;text-align:center;margin-bottom:0}
+.cname{font-size:3.5vw;font-weight:700;text-align:center;margin-top:2vw}
+.mainheads{font-weight:100;}
+.subheads{margin-bottom:1vw}
