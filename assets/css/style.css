@@ -66,7 +66,7 @@ figure figcaption {
 .section-heading {
   font-size: 3rem;
   font-weight: 700;
-  background: linear-gradient(-45deg, #3db3c5, #274685);
+  background: linear-gradient(-45deg, #3234a4 , #3234a4b8);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -318,7 +318,7 @@ p{
 
 /* CTA Section */
 .cta-section {
-  background: linear-gradient(to right, #274685 0%, #3db3c5 100%);
+  background: linear-gradient(to right, #3234a4 0%, #3234a4b8 100%);
   color: #fff;
 }
 
