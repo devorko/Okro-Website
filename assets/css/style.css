@@ -11,9 +11,26 @@
 html {
   overflow-x: hidden;
 }
-
+@font-face {
+  font-family: 'Nexa bold';
+  src: URL('../font/Nexa-Bold.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Nexa light';
+  src: URL('../font/Nexa-Light.ttf') format('truetype');
+}
+*{
+  font-family: 'Nexa light';
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Nexa bold' !important;
+  src: URL('../font/Nexa-Bold.ttf') format('truetype');
+}
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: "Nexa bold", Nexa-Light;
   color: #9fa1a4;
   line-height: 1.5;
 }
